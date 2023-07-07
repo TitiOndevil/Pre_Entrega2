@@ -1,0 +1,282 @@
+.nav ul{
+    list-style: none;
+    text-align: right;
+    background-color: #0364AA;
+    padding: 0 ;
+    margin: 0 auto;
+    font-family: Shrikhand;
+    font-size: 30px;
+    width: 1889px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.nav li{
+    display:inline;
+    padding: 15px;
+    border-radius: 60px;
+    position: relative;
+    right: 20px;
+}
+
+.nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 100px;
+    display: inline;
+    transition: .5s;
+
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+@font-face {
+    font-family:"Shrikhand" ;
+    src: url("./fonts/Shrikhand-Regular.ttf");
+}
+h1 {
+    font-size: 110px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Shrikhand" ;
+    color: #D3EE30;;
+    line-height: 199px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 53px;
+    font-family:"Shrikhand" ;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-image: url(../img/fondo1final1.jpg);
+    aspect-ratio: 1 /1;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.caja {
+    background-color: white;
+    height: 181px;
+    width: 1889px;
+    left: 45px;
+    top: 155px;
+    border-radius: 60px;
+    margin: 0 auto;
+}
+
+.caja2 {
+
+    background-color:#025AA1;
+    height: 74px;
+    width: 1889px;
+    left: 17px;
+    top: 352px;
+    border-radius: 60px;
+    margin: 0 auto;
+
+}
+.imagen-icono{
+    background-image: url(../img/Sin\ título\ \(Logo\).png);
+    background-size: a;
+}
+
+.foto{
+    position: absolute;
+    top: 0;
+    right: 1;
+}
+.ovalo1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 5px 10px 5px 10px;
+    width: 455px;
+    height: 74px;
+    display: inline-block;
+    position: absolute;
+}
+.ovalo2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 20px 20px 20px 710px;
+    padding: 5px 10px 5px 10px;
+    width: 455px;
+    height: 74px;
+    display: inline-block;
+    position: absolute;
+}
+.ovalo3{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 20px 20px 1400px;
+    padding: 5px 10px 5px 10px;
+    width: 450px;
+    height: 74px;
+    display: inline-block;
+    position: absolute;
+}
+
+.grande1{
+    background-color: white;
+    border-radius: 20px;
+    margin: 150px 20px 20px 20px;
+    padding: 5px 10px 5px 10px;
+    width: 455px;
+    height: 466px;
+    display: inline-block;
+    position: absolute;
+}
+.grande2{
+    background-color: white;
+    border-radius: 20px;
+    margin: 150px 20px 20px 710px;
+    padding: 5px 10px 5px 10px;
+    width: 455px;
+    height: 466px;
+    display: inline-block;
+    position: absolute;
+}
+.grande3{
+    background-color: white;
+    border-radius: 20px;
+    margin: 150px 20px 20px 1400px;
+    padding: 5px 10px 5px 10px;
+    width: 455px;
+    height: 466px;
+    display: inline-block;
+    position: absolute;
+}
+.img11{
+    border-radius: 55px;
+    width: 700px;
+    margin: -120px 20px 20px -129px;
+    padding: 5px 10px 5px 10px;
+}
+.img12{
+    border-radius: 55px;
+    width: 600px;
+    margin: -62px 0px 0px -72px;
+}
+.img3{
+    width: 300px;
+    margin: 5px 5px 5px 5px;
+}
+
+.texto{
+    font-family: Shrikhand;
+    font-size: 50px;
+    text-align: center;
+    margin-top: auto;
+    color: #D3EE30;
+}
+
+.texto2{
+    font-family: Shrikhand;
+    font-size: 50px;
+    text-align: center;
+    margin-top: auto;
+    color: #D3EE30;
+}
+
+.texto3{
+    font-family: Shrikhand;
+    font-size: 50px;
+    text-align: center;
+    margin-top: auto;
+    color: #D3EE30;
+}
+
+.caja3 {
+    background-color: white;
+    height: 181px;
+    width: 1889px;
+    border-radius: 60px;
+    position: relative;
+    margin: 750px 200px 300px 3px ;
+}
+.textobajo{
+    font-size: 40px;
+}
+.caja33{
+    background-color: white;
+    border-radius: 60px;
+    position: relative;
+    margin: -280px 0px 200px 0px;
+    text-align: center;
+    
+}
+
+div p{
+    font-family: Shrikhand;
+    font-size: 30px;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+input[type="email"] {
+padding: 5px;
+width: 200px;
+border-radius: 5px;
+}
+
+input[type="submit"] {
+padding: 5px 20px;
+background-color: white;
+color: rgb(13, 46, 230);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+nav {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #0364AA; 
+z-index: 999;
+}
+
+.caja-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 5px 10px 5px 10px;
+    width: 455px;
+    height: 74px;
+    display: inline-block;
+    position: absolute;
+}
+
+.textopr{
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: Shrikhand;
+}
+
+.face{
+    display: flex;
+    position: absolute;
+    
+    
+}
